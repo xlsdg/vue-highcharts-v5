@@ -102,9 +102,10 @@ function wrapHighCharts(name, HighCharts) {
         }
 
         const method = INIT_METHOD[name];
-        that.chart = HighCharts[method](dom, that.options, () => {
-          that.$emit('load', that.chart, HighCharts);
-        });
+        that.chart = HighCharts[method](dom,
+          that.options,
+          () => setTimeout(() => that.$emit('load', that.chart, HighCharts))
+        );
 
         that.setLoading(that.chart, that.loading);
 
