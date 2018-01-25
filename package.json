@@ -1,6 +1,6 @@
 {
   "name": "vue-highcharts-v5",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue.js(v2.x+) component wrap for HighCharts.js(v6.x+)",
   "keywords": [
     "highcharts",
