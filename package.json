@@ -1,0 +1,47 @@
+{
+  "name": "vue-highcharts-v5",
+  "version": "1.0.0",
+  "description": "Vue.js(v2.x+) component wrap for HighCharts.js(v6.x+)",
+  "keywords": [
+    "highcharts",
+    "library",
+    "vue",
+    "vue-highcharts",
+    "vue-highcharts-v5"
+  ],
+  "homepage": "https://github.com/xlsdg/vue-highcharts-v5",
+  "bugs": {
+    "url": "https://github.com/xlsdg/vue-highcharts-v5/issues"
+  },
+  "license": "MIT",
+  "author": "xLsDg <xlsdg@qq.com> (https://blog.xlsdg.org/)",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/vue-highcharts.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsdg/vue-highcharts-v5.git"
+  },
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "element-resize-detector": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "lodash-webpack-plugin": "^0.11.4",
+    "webpack": "^3.10.0"
+  },
+  "peerDependencies": {
+    "highcharts": "*",
+    "vue": "*"
+  },
+  "title": "vue-highcharts-v5"
+}
