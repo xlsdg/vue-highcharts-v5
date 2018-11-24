@@ -25,6 +25,9 @@
     "url": "https://github.com/xlsdg/vue-highcharts-v5.git"
   },
   "scripts": {
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
     "build": "webpack --progress --hide-modules"
   },
   "dependencies": {
